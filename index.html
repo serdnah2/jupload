@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jupload</title>
+        <meta charset="utf-8">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form id="ju-upload-picture" enctype="multipart/form-data">
+                <label class="btn btn-primary btn-lg btn-block" for="image">Agregar</label>
+                <div id="ju-image-name" class="text-center" data-ju-canupload="false">Seleecione una o m&aacute;s im&aacute;genes por favor</div>
+                <input type="file" multiple name="img[]" id="image"/>
+                <div class="text-center">
+                    <button id="button-submit" type="submit" class="btn btn-default disabled">Subir</button>
+                </div>
+            </form>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jupload.js"></script>
+    </body>
+</html>

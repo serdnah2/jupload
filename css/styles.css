@@ -1,0 +1,12 @@
+body{
+    margin: 0; 
+}
+
+#ju-upload-picture{
+    margin-bottom: 40px;
+}
+
+#image{
+    visibility: hidden;
+}
+
