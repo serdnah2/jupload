@@ -1,4 +1,6 @@
 jupload
 =======
 
-Simple upload of images javascript and php
+Jupload es un simple sistema de carga de archivos web, el cual podrás usar como quieras.
+
+Espero que les sirva bastante.
